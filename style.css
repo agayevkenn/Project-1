@@ -55,6 +55,7 @@ header, .first-part, .middle-part{
     
 }
 .text-1{
+    color: black;
     /* width: 30%; */
     font-size: 25px;
     font-family: 'Roboto Slab';
