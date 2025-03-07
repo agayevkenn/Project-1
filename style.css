@@ -1,3 +1,68 @@
-body{
-    background-color: lavender;
+header img{
+    width: 112px;
+    height: 66px;
+    margin-top: 21px;
+}
+.first-part{
+    width: 40%;
+    display: flex;
+    gap: 25px;
+    margin-top: 100px;
+}
+.item{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.first-part img{
+    width: 22px;
+    height: 22px;
+}
+h1{
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Roboto Slab';
+    width: 80%;
+    margin: 0;
+    margin-top: 29px;
+}
+.first-part p{
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.middle-part p{
+    font-size: 20px;
+    font-family: 'Roboto';
+    margin: 0;
+    width: 52%;
+}
+.middle-part{
+    display: flex;
+    /* justify-content: space-between; */
+}
+header, .first-part, .middle-part{
+    margin-left: 121px;
+}
+.last-part{
+    background-color: #1E4685;
+    width: 35%;
+    color: white;
+   margin: 87px auto;
+   border-radius: 5px;
+}
+.last-part p{
+    margin: 0;
+    
+}
+.text-1{
+    /* width: 30%; */
+    font-size: 25px;
+    font-family: 'Roboto Slab';
+    padding: 19.26px 27px 0 26px;
+}
+.text-2{
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: end;
+    padding: 22px 19px 23.62px 0;
 }
